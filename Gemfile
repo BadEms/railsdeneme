@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'nokogiri', '~> 1.8', '>= 1.8.1'
+gem 'nokogiri'
 gem 'mini_portile2', '~> 2.3'
 gem 'rack', '~> 2.0.1'
 gem 'rspec'
@@ -60,7 +60,6 @@ group :development do
   gem 'paperclip'
   gem 'activeadmin'
   gem 'bootstrap-sass'
-  gem 'nokogiri'
   gem 'rack', '~> 2.0.1'
   gem 'rspec'
 end
