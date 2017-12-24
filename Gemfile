@@ -59,6 +59,9 @@ group :development do
   gem 'paperclip'
   gem 'activeadmin'
   gem 'bootstrap-sass'
+  gem 'nokogiri'
+  gem 'rack', '~> 2.0.1'
+  gem 'rspec'
 end
 
 group :production do
@@ -67,6 +70,9 @@ group :production do
  gem 'paperclip'
  gem 'activeadmin'
  gem 'bootstrap-sass'
+ gem 'nokogiri'
+ gem 'rack', '~> 2.0.1'
+ gem 'rspec'
 end
 
 
