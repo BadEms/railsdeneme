@@ -1,0 +1,16 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><%=link_to "Ana Sayfa", welcome_index_path%></li>
+      <li><%=link_to "Gündemdekiler", posts_path%></li>
+      <li><%=link_to "Kayıt Ol", new_user_registration_path%></li>
+      <li><%=link_to "Giriş Yap", new_user_session_path%></a></li>
+    </ul>
+    <ul class="nav navbar-nav">
+      <li class="active"><%=link_to "Çıkış Yap", destroy_user_session_path, method: :delete%></li>
+    </ul>
+  </div>
+</nav>
